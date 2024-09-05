@@ -139,6 +139,10 @@ h3{
     float: left;
     background-color:#ff80d7;
 }
+.figma{
+    width: 77%;
+    animation: html 3s;
+}
 .html{
     width: 100%;
     animation: html 3s;
@@ -185,6 +189,14 @@ h3{
     }
 100%{
     width: 80%;
+}
+}
+@keyframes figma{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 77%;
 }
 }
 @keyframes javas{

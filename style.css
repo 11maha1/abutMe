@@ -141,7 +141,7 @@ h3{
 }
 .figma{
     width: 77%;
-    animation: html 3s;
+    animation: figma 3s;
 }
 .html{
     width: 100%;
@@ -175,6 +175,13 @@ h3{
     width: 90%;
     animation: python 3s;
 }
+@keyframes figma{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 77%;
+}}
 @keyframes html{
     0%{
     width: 0%;
@@ -191,14 +198,7 @@ h3{
     width: 80%;
 }
 }
-@keyframes figma{
-    0%{
-    width: 0%;
-    }
-100%{
-    width: 77%;
-}
-}
+
 @keyframes javas{
     0%{
     width: 0%;
